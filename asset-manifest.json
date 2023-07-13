@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0fe42a5a.css",
+    "main.js": "/static/js/main.4732eb97.js",
+    "static/media/2.jpg": "/static/media/2.250dcb1058185c2daa2a.jpg",
+    "static/media/1.jpg": "/static/media/1.00fd60ce696b521e4eef.jpg",
+    "static/media/Hat-doi-rung.jpg": "/static/media/Hat-doi-rung.531a5c787dd083e15926.jpg",
+    "static/media/gao-nep-cam-1.jpg": "/static/media/gao-nep-cam-1.c4fe7c18807eb86f62a0.jpg",
+    "static/media/gao-seng-cu-2.jpg": "/static/media/gao-seng-cu-2.37a531461f4b0fe64d89.jpg",
+    "static/media/thit-trau-gac-bep.jpg": "/static/media/thit-trau-gac-bep.5361a659ff87deabe865.jpg",
+    "index.html": "/index.html",
+    "main.0fe42a5a.css.map": "/static/css/main.0fe42a5a.css.map",
+    "main.4732eb97.js.map": "/static/js/main.4732eb97.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0fe42a5a.css",
+    "static/js/main.4732eb97.js"
+  ]
+}
