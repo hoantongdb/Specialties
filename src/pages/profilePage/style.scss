@@ -1,0 +1,40 @@
+.intro {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: justify;
+    border-radius: 25px;
+    border: 1px solid #e41f1f;
+    background: #FFF;
+
+    h1 {
+        padding: 20px;
+        width: 100%;
+        max-width: 850px;
+        height: auto;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 200%;
+        color: #091156;
+    }
+
+    span {
+        color: rgb(239, 23, 23);
+    }
+}
+.goal{
+    margin: 0 auto;
+    padding: 20px;
+    width: 100%;
+    max-width: 850px;
+    height: auto;
+    h1{
+        font-size: 18px;
+    font-weight: 600;
+    line-height: 200%;
+    justify-content: center;
+    text-align: justify;
+    color: #091156;
+    }
+}
