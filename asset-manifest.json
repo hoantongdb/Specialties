@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5ef6f9bd.css",
-    "main.js": "/static/js/main.e1be75f1.js",
+    "main.css": "/static/css/main.5607c667.css",
+    "main.js": "/static/js/main.cfe7b0ac.js",
     "static/media/2.jpg": "/static/media/2.250dcb1058185c2daa2a.jpg",
     "static/media/1.jpg": "/static/media/1.00fd60ce696b521e4eef.jpg",
     "static/media/Hat-doi-rung.jpg": "/static/media/Hat-doi-rung.531a5c787dd083e15926.jpg",
@@ -14,11 +14,11 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.5ef6f9bd.css.map": "/static/css/main.5ef6f9bd.css.map",
-    "main.e1be75f1.js.map": "/static/js/main.e1be75f1.js.map"
+    "main.5607c667.css.map": "/static/css/main.5607c667.css.map",
+    "main.cfe7b0ac.js.map": "/static/js/main.cfe7b0ac.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ef6f9bd.css",
-    "static/js/main.e1be75f1.js"
+    "static/css/main.5607c667.css",
+    "static/js/main.cfe7b0ac.js"
   ]
 }
