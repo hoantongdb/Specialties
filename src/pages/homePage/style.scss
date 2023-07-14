@@ -1,4 +1,4 @@
-$color-text :  #091156;
+$color-text : #091156;
 
 .categories {
   margin: 50px;
@@ -9,25 +9,32 @@ $color-text :  #091156;
     display: flex;
     gap: 20px;
     padding: 30px;
-
     .categories-bottom_item {
       text-align: center;
       border-radius: 10px;
       border: 1px solid #E2E2E2;
-      background: rgba(0, 0, 0, 0.10);
-      box-shadow: 25px #e3e3e6;
+      box-shadow: 0px 0px 50px 0px #e3e3e6;
       padding: 10px;
       color: $color-text;
+      background-color: #FFF;
+      &:hover {
+        border: 1px solid #dc3545;
+      }
+   
+     
+      
     }
+
   }
 
   .categories-top {
-    color:$color-text;
+    color: $color-text;
     text-align: start;
     font-size: 36px;
     font-weight: 600;
     line-height: 125%;
   }
+
 }
 
 .main-product {
@@ -37,7 +44,7 @@ $color-text :  #091156;
 
   .main-product_top {
     padding: 15px;
-    color:$color-text;
+    color: $color-text;
     text-align: center;
     font-size: 36px;
     font-weight: 600;
@@ -59,6 +66,9 @@ $color-text :  #091156;
       border: 1px solid #E2E2E2;
       background: #FFF;
       box-shadow: 0px 0px 50px 0px #e3e3e6;
+      &:hover {
+        border: 1px solid #dc3545;
+      }
 
       .main-product_bottom_box_1 img {
         object-fit: cover;
@@ -68,7 +78,7 @@ $color-text :  #091156;
       }
 
       .main-product_bottom_box-2 {
-        color:$color-text;
+        color: $color-text;
         font-size: 18px;
         font-weight: 600;
         line-height: 125%;
@@ -84,23 +94,41 @@ $color-text :  #091156;
 
       .main-product_button {
         margin: 20px 20px;
-        border: 1px solid deeppink;
+        border: 1px solid #dc3545;
         padding: 10px;
         border-radius: 5px;
         background-color: #FFF;
         transition: all 0.8s ease;
+
         &:hover {
-          background-color: deeppink;  
+          background-color: #dc3545;
         }
-       
-        .add-product{
+
+        .add-product {
           font-size: 14px;
           font-weight: 600;
           line-height: 125%;
-          color:$color-text;
+          color: $color-text;
         }
       }
     }
   }
 }
 
+.img-slide {
+  margin-top: 100px;
+}
+
+
+  .slider-image {
+    width: 100%;
+    max-width: 253px;
+    /* Đảm bảo ảnh chiếm toàn bộ không gian của slide container */
+    object-fit: cover;
+    /* Đảm bảo ảnh không bị méo khi thay đổi kích thước */
+    height: 200px;
+    // transition: 0.5s ease;
+    // &:hover {
+    //   transform: scale(1.1);
+    // }
+  }

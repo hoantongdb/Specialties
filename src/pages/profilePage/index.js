@@ -12,8 +12,9 @@ const ProfilePage = () => {
 
                 <h1 >  Các đặc sản ở <span>Điện Biên:</span> Gạo Điện Biên, Thịt khô gác bếp, Gà đen Tủa Chùa, Trà Tuyết Tủa Chùa, cà phê Mường Ẳng, Xôi nếp nương, ẩm thực người Thái Tây Bắc…còn rất rất nhiều các đặc sản khác nữa đang chờ đợi bạn khám phá.</h1>
             </div>
-            <div className="goal">
-           <h1> Với mong muốn mang đến cho các thực khách miền xuôi sự trải nghiệm và có cơ hội được thưởng thức các đặc sản Điện Biên. Mình xin được góp 1 phần gia vị ẩm thực trong mỗi bếp ăn của gia đình người Việt. Phương châm của tôi là” Mang sản phẩm Tây Bắc ngon, an toàn nhất đến với mọi gia đình Việt “</h1>
+            <div className="intro goal">
+                <h1 style={{fontSize:"30px", color:"#e41f1f"}}>Mục tiêu</h1>
+           <h1> Với mong muốn mang đến cho các thực khách miền xuôi sự trải nghiệm và có cơ hội được thưởng thức các đặc sản <span>Điện Biên.</span> Tôi xin được góp 1 phần gia vị ẩm thực trong mỗi bếp ăn của gia đình người Việt. Phương châm của tôi là <span>”Mang sản phẩm Tây Bắc ngon, an toàn nhất đến với mọi gia đình Việt“</span></h1>
             </div>
         </div>
     );

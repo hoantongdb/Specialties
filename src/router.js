@@ -4,6 +4,9 @@ import { ROUTERS } from "./utils/router";
 import MasterLayout from "./pages/theme/masterLayout";
 import ProfilePage from "./pages/profilePage";
 import ContactPage from "pages/contactPage";
+import ProductPage from "pages/productPage";
+import ShopPage from "pages/shopPage";
+
 
 //import MasterLayout from "./pages//theme/masterLayout";
 <link rel="stylesheet" type="text/css"
@@ -24,6 +27,15 @@ const renderUserRouter = () => {
             path: ROUTERS.USER2.CONTACT,
             component: <ContactPage/>,
         },
+        {
+            path: ROUTERS.USER3.CRODUCT,
+            component: <ProductPage/>,
+        },
+        {
+            path: ROUTERS.USER4.SHOP,
+            component: <ShopPage/>,
+        },
+      
    
    
     ];

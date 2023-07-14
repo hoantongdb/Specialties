@@ -1,8 +1,9 @@
 import { memo } from "react";
 import './style.scss';
+import { Link } from "react-router-dom";
 import { fomatter } from "utils/fomatter";
 import Counter from "./test";
-
+import ImageSlider from './slide';
 import img1 from './Image/1.jpg';
 import thitraugacbep from './Image/thit-trau-gac-bep.jpg';
 import sauchit from './Image/2.jpg';
@@ -10,6 +11,7 @@ import img2 from './Image/Hat-doi-rung.jpg';
 import img3 from './Image/gao-nep-cam-1.jpg';
 import img4 from './Image/gao-seng-cu-2.jpg';
 const HomePage = () => {
+
     return (
         <div>
             <div className="categories">
@@ -18,7 +20,7 @@ const HomePage = () => {
                 </div>
                 <div className="categories-bottom">
                     <div className="categories-bottom_item">
-                        Đồ ăn
+                        <Link style={{textDecoration:"none"}} to="/san-pham">Đồ ăn</Link>
                     </div>
                     <div className="categories-bottom_item">
                         Gia vị
@@ -41,10 +43,10 @@ const HomePage = () => {
                             Cá nướng
                         </div>
                         <div className="main-product_bottom_box_3">
-                          {fomatter(5000)}
+                            {fomatter(5000)}
                         </div>
                         <div>
-                        <Counter/>
+                            <Counter />
                         </div>
                         <div >
                             <button className="main-product_button">
@@ -60,10 +62,10 @@ const HomePage = () => {
                             Sâu chít
                         </div>
                         <div className="main-product_bottom_box_3">
-                          {fomatter(5000)}
+                            {fomatter(5000)}
                         </div>
                         <div>
-                        <Counter/>
+                            <Counter />
                         </div>
                         <div >
                             <button className="main-product_button">
@@ -79,10 +81,10 @@ const HomePage = () => {
                             Thịt trâu gác bếp
                         </div>
                         <div className="main-product_bottom_box_3">
-                          {fomatter(5000)}
+                            {fomatter(5000)}
                         </div>
                         <div>
-                        <Counter/>
+                            <Counter />
                         </div>
                         <div >
                             <button className="main-product_button">
@@ -98,13 +100,13 @@ const HomePage = () => {
                             <img src={img2} alt="" />
                         </div>
                         <div className="main-product_bottom_box-2">
-                            Hại dổi 
+                            Hại dổi
                         </div>
                         <div className="main-product_bottom_box_3">
-                          {fomatter(5000)}
+                            {fomatter(5000)}
                         </div>
                         <div>
-                        <Counter/>
+                            <Counter />
                         </div>
                         <div >
                             <button className="main-product_button">
@@ -117,13 +119,13 @@ const HomePage = () => {
                             <img src={img4} alt="" />
                         </div>
                         <div className="main-product_bottom_box-2">
-                       Gạo séng cù
+                            Gạo séng cù
                         </div>
                         <div className="main-product_bottom_box_3">
-                          {fomatter(5000)}
+                            {fomatter(5000)}
                         </div>
                         <div>
-                        <Counter/>
+                            <Counter />
                         </div>
                         <div >
                             <button className="main-product_button">
@@ -136,13 +138,13 @@ const HomePage = () => {
                             <img src={img3} alt="" />
                         </div>
                         <div className="main-product_bottom_box-2">
-                        Gạo nếp cẩm
+                            Gạo nếp cẩm
                         </div>
                         <div className="main-product_bottom_box_3">
-                        {fomatter(100000)}
+                            {fomatter(100000)}
                         </div>
                         <div>
-                        <Counter/>
+                            <Counter />
                         </div>
                         <div >
                             <button className="main-product_button">
@@ -153,6 +155,10 @@ const HomePage = () => {
 
                 </div>
             </div>
+            <div className="img-slide">
+                <ImageSlider/>
+            </div>
+
         </div>
     );
 };

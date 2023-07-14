@@ -1,6 +1,7 @@
 import { memo } from "react";
 import "./style.scss";
 import { AiFillTwitterCircle, AiFillFacebook, AiFillLinkedin } from "react-icons/ai";
+import logo from '../img/logo.png'
 const Footer = () => {
     return (
         /*<footer>
@@ -11,7 +12,7 @@ const Footer = () => {
         <footer>
             <div className="container">
                 <div className="footer-top">
-                    <div className="logo">FooDB</div>
+                    <div className="logo"> <img src={logo} alt="" /></div>
                     <div className="social-icons">
                         <a href="/"><AiFillTwitterCircle /></a>
                         <a href="/"><AiFillFacebook /></a>

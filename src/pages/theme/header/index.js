@@ -3,7 +3,7 @@ import "./style.scss"
 import { AiOutlineFacebook, AiOutlineMail, AiOutlineInstagram, AiFillTwitterSquare, AiOutlineLogin, AiOutlineGlobal } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import { fomatter } from "utils/fomatter";
-
+import logo from '../img/logo.png'
 
 const Header = () => {
     return (
@@ -65,26 +65,17 @@ const Header = () => {
                 <div className="row">
                     <div className="col-6 nav_left">
                         <div className="logo">
-                            <h1>FooDB</h1>
+                            <img src={logo} alt="" />
+                            {/* <h1>FooDB</h1> */}
                         </div>
                     </div>
                     <div className="col-6 nav_right" >
                         <ul>
-                            <li>
-                               <Link to ="/">Trang chủ</Link>
-                            </li>
-                            <li>
-                                Cửa hàng
-                            </li>
-                            <li>
-                                Sản phẩm
-                            </li>
-                            <li>
-                                Giới thiệu
-                            </li>
-                            <li>
-                                Liên hệ
-                            </li>
+                            <li> <Link className="Link" to="/">Trang chủ</Link></li>
+                            <li> <Link className="Link" to="/cua-hang"> Cửa hàng</Link></li>
+                            <li> <Link className="Link" to="/san-pham">Sản phẩm</Link></li>
+                            <li> <Link className="Link" to="/gioi-thieu">Giới thiệu</Link></li>
+                            <li> <Link className="Link" to="/lien-he">Liên hệ</Link></li>
                         </ul>
                     </div>
                 </div>
